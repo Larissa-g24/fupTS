@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "esbuild": "^0.23.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1"
+  }
+}
