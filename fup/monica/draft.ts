@@ -5,10 +5,16 @@ let write = (text: any, end:string="\n")=> process.stdout.write("" + text + end)
 export {};
 
 
-let qtd: number = +input();
-let qtdC: number = 0;
-let qtdL: number = 0;
-let qtdManha: number = 0;
-let qtdTarde: number = 0;
+let M: number = +input();
+let A: number = +input();
+let B: number = +input();
 
- 
+let outroF: number = M - (A + B);
+
+if (outroF > A && outroF > B) {
+    write(outroF);
+} else if (A > B && A > outroF) {
+    write(A);
+} else {
+    write(B);
+}

@@ -5,10 +5,11 @@ let write = (text: any, end:string="\n")=> process.stdout.write("" + text + end)
 export {};
 
 
-let qtd: number = +input();
-let qtdC: number = 0;
-let qtdL: number = 0;
-let qtdManha: number = 0;
-let qtdTarde: number = 0;
+let C: number = +input();
+let A: number = +input();
 
- 
+C = C - 1;
+// C -= 1
+
+let qnt: number = Math.ceil(A / C);
+write(qnt);

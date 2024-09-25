@@ -1,9 +1,7 @@
 {
     "expanded": [
         "caminho-base",
-        "op_form",
-        "extra",
-        "main_vet_iii"
+        "main_vet"
     ],
     "tasks": {
         "tres": "10:0:100",
@@ -32,7 +30,11 @@
         "trabalhando": "10:0:100",
         "varetas": "10:0:98",
         "bhaskara": "10:0:100",
+        "cortada": "10:0:100",
+        "monica": "10:0:100",
+        "teleferico": "10:0:100",
         "goiabas": "10:0:100",
+        "salario": "10:0:100",
         "loop_i": "10:0:100",
         "loop_ii": "10:0:100",
         "loop_iii": "10:0:100",
@@ -55,9 +57,11 @@
         "vet_iii": "10:0:100",
         "apertada": "10:0:100",
         "dieta": "10:0:100",
+        "patas": "10:0:100",
         "contar_repetidos": "10:0:100",
         "busca": "7:0:80",
         "xuxa": "10:0:100",
+        "inverte": "10:0:100",
         "quebrada": "10:0:100",
         "operacoes": "10:0:100",
         "data": "10:0:100",
@@ -66,10 +70,11 @@
         "maximo": "10:0:100",
         "chaves": "10:0:100",
         "morangos": "10:0:100",
-        "taxi": "1:0:35",
+        "taxi": "10:0:100",
         "par": "10:0:100",
         "divisiveis": "10:0:100",
-        "primo": "0:0:50"
+        "primo": "0:0:50",
+        "casamento": "10:0:100"
     },
     "flags": {
         "minimum": 0,
@@ -80,15 +85,15 @@
         "skills": 0
     },
     "new_items": [
-        "vetor_logica",
         "strings_ii",
+        "vetor_logica",
+        "matrizes_ii",
+        "em_construcao",
         "strings_i",
         "structs",
-        "matrizes_i",
-        "em_construcao",
         "strings_iii",
-        "matrizes_ii"
+        "matrizes_i"
     ],
     "lang": "ts",
-    "index": 14
+    "index": 12
 }
